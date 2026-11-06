@@ -1,0 +1,10 @@
+{
+  "defaultProvider": "local-redteam",
+  "defaultModel": "qwen3-8b-redteam",
+  "defaultProjectTrust": "never",
+  "compaction": { "enabled": true, "reserveTokens": 2048, "keepRecentTokens": 2048 },
+  "retry": { "enabled": false, "maxRetries": 0 },
+  "httpIdleTimeoutMs": 1800000,
+  "enableInstallTelemetry": false,
+  "enableAnalytics": false
+}

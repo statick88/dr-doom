@@ -1,0 +1,288 @@
+{
+  "source": "https://github.com/open-free-llm-api/awesome-freellm-apis",
+  "revision": "d04877f798520a680a0a954ced5a6ee5514406c0",
+  "snapshotDate": "2026-10-24",
+  "license": "MIT",
+  "notice": "Directorio offline. Datos declarados por upstream, no verificados con cada proveedor. No garantiza gratuidad, disponibilidad, compatibilidad ni uso permitido. No configura ni contacta APIs.",
+  "providers": [
+    {
+      "name": "NVIDIA NIM",
+      "baseUrl": "https://integrate.api.nvidia.com/v1",
+      "keyUrl": "https://build.nvidia.com/settings/api-keys",
+      "requirements": "Phone verification",
+      "upstreamFreeModels": 137,
+      "upstreamMaxContext": "1M",
+      "upstreamCategory": "free-tier-claim"
+    },
+    {
+      "name": "ModelScope",
+      "baseUrl": "https://api-inference.modelscope.cn/v1",
+      "keyUrl": "https://modelscope.cn/my/myaccesstoken",
+      "requirements": "Registration",
+      "upstreamFreeModels": 61,
+      "upstreamMaxContext": "1M",
+      "upstreamCategory": "free-tier-claim"
+    },
+    {
+      "name": "Cloudflare Workers AI",
+      "baseUrl": "https://api.cloudflare.com/client/v4/accounts/{account_id}/ai/run",
+      "keyUrl": "https://dash.cloudflare.com/profile/api-tokens",
+      "requirements": "No",
+      "upstreamFreeModels": 46,
+      "upstreamMaxContext": "262K",
+      "upstreamCategory": "free-tier-claim"
+    },
+    {
+      "name": "OpenRouter",
+      "baseUrl": "https://openrouter.ai/api/v1",
+      "keyUrl": "https://openrouter.ai/workspaces/default/keys",
+      "requirements": "Registration",
+      "upstreamFreeModels": 38,
+      "upstreamMaxContext": "1M",
+      "upstreamCategory": "renewable-credits"
+    },
+    {
+      "name": "OpenCode Zen",
+      "baseUrl": "https://opencode.ai/zen/v1",
+      "keyUrl": "https://opencode.ai/auth",
+      "requirements": "Registration",
+      "upstreamFreeModels": 34,
+      "upstreamMaxContext": "1M",
+      "upstreamCategory": "free-tier-claim"
+    },
+    {
+      "name": "Kilo Code",
+      "baseUrl": "https://api.kilo.ai/api/gateway",
+      "keyUrl": "https://app.kilo.ai/profile",
+      "requirements": "No",
+      "upstreamFreeModels": 27,
+      "upstreamMaxContext": "1M",
+      "upstreamCategory": "free-tier-claim"
+    },
+    {
+      "name": "LLM7.io",
+      "baseUrl": "https://api.llm7.io/v1",
+      "keyUrl": "https://token.llm7.io",
+      "requirements": "No",
+      "upstreamFreeModels": 24,
+      "upstreamMaxContext": "1M",
+      "upstreamCategory": "free-tier-claim"
+    },
+    {
+      "name": "Google Gemini",
+      "baseUrl": "https://generativelanguage.googleapis.com/v1beta",
+      "keyUrl": "https://aistudio.google.com/app/apikey",
+      "requirements": "No",
+      "upstreamFreeModels": 19,
+      "upstreamMaxContext": "1M",
+      "upstreamCategory": "free-tier-claim"
+    },
+    {
+      "name": "Ollama Cloud",
+      "baseUrl": "https://ollama.com/api",
+      "keyUrl": "https://ollama.com/settings/keys",
+      "requirements": "Registration",
+      "upstreamFreeModels": 17,
+      "upstreamMaxContext": "1M",
+      "upstreamCategory": "free-tier-claim"
+    },
+    {
+      "name": "Mistral AI",
+      "baseUrl": "https://api.mistral.ai/v1",
+      "keyUrl": "https://console.mistral.ai/api-keys",
+      "requirements": "No",
+      "upstreamFreeModels": 15,
+      "upstreamMaxContext": "256K",
+      "upstreamCategory": "free-tier-claim"
+    },
+    {
+      "name": "OVHcloud AI Endpoints",
+      "baseUrl": "https://oai.endpoints.kepler.ai.cloud.ovh.net/v1",
+      "keyUrl": "https://www.ovhcloud.com/en/public-cloud/ai-endpoints/catalog/",
+      "requirements": "Registration",
+      "upstreamFreeModels": 15,
+      "upstreamMaxContext": "262K",
+      "upstreamCategory": "free-tier-claim"
+    },
+    {
+      "name": "Groq",
+      "baseUrl": "https://api.groq.com/openai/v1",
+      "keyUrl": "https://console.groq.com/keys",
+      "requirements": "No",
+      "upstreamFreeModels": 12,
+      "upstreamMaxContext": "262K",
+      "upstreamCategory": "free-tier-claim"
+    },
+    {
+      "name": "Cohere",
+      "baseUrl": "https://api.cohere.com/v2",
+      "keyUrl": "https://dashboard.cohere.com/api-keys",
+      "requirements": "No",
+      "upstreamFreeModels": 12,
+      "upstreamMaxContext": "256K",
+      "upstreamCategory": "free-tier-claim"
+    },
+    {
+      "name": "Aion Labs",
+      "baseUrl": "https://api.aionlabs.ai/v1",
+      "keyUrl": "https://www.aionlabs.ai/app/api-keys/",
+      "requirements": "Registration",
+      "upstreamFreeModels": 11,
+      "upstreamMaxContext": "131K",
+      "upstreamCategory": "free-tier-claim"
+    },
+    {
+      "name": "Hugging Face",
+      "baseUrl": "https://router.huggingface.co/v1",
+      "keyUrl": "https://huggingface.co/settings/tokens",
+      "requirements": "No",
+      "upstreamFreeModels": 9,
+      "upstreamMaxContext": "131K",
+      "upstreamCategory": "free-tier-claim"
+    },
+    {
+      "name": "Z AI (Zhipu AI)",
+      "baseUrl": "https://open.bigmodel.cn/api/paas/v4",
+      "keyUrl": "https://open.bigmodel.cn/usercenter/apikeys",
+      "requirements": "No",
+      "upstreamFreeModels": 8,
+      "upstreamMaxContext": "200K",
+      "upstreamCategory": "free-tier-claim"
+    },
+    {
+      "name": "Cerebras",
+      "baseUrl": "https://api.cerebras.ai/v1",
+      "keyUrl": "https://cloud.cerebras.ai/",
+      "requirements": "No",
+      "upstreamFreeModels": 6,
+      "upstreamMaxContext": "131K",
+      "upstreamCategory": "free-tier-claim"
+    },
+    {
+      "name": "SiliconFlow",
+      "baseUrl": "https://api.siliconflow.cn/v1",
+      "keyUrl": "https://cloud.siliconflow.cn/account/ak",
+      "requirements": "Registration",
+      "upstreamFreeModels": 6,
+      "upstreamMaxContext": "131K",
+      "upstreamCategory": "free-tier-claim"
+    },
+    {
+      "name": "Agnes AI",
+      "baseUrl": "https://apihub.agnes-ai.com/v1",
+      "keyUrl": "https://platform.agnes-ai.com/settings/apiKeys",
+      "requirements": "Registration",
+      "upstreamFreeModels": 5,
+      "upstreamMaxContext": "256K",
+      "upstreamCategory": "free-tier-claim"
+    },
+    {
+      "name": "Alibaba Cloud Model Studio",
+      "baseUrl": "https://dashscope-intl.aliyuncs.com/compatible-mode/v1",
+      "keyUrl": "https://bailian.console.alibabacloud.com/?apiKey=1",
+      "requirements": "Registration",
+      "upstreamFreeModels": 5,
+      "upstreamMaxContext": "1M",
+      "upstreamCategory": "free-tier-claim"
+    },
+    {
+      "name": "Cline",
+      "baseUrl": null,
+      "keyUrl": null,
+      "requirements": "Registration",
+      "upstreamFreeModels": 5,
+      "upstreamMaxContext": "0",
+      "upstreamCategory": "free-tier-claim"
+    },
+    {
+      "name": "Gonka Broker",
+      "baseUrl": "https://proxy.gonkabroker.com/v1",
+      "keyUrl": "https://app.gonkabroker.com/signup",
+      "requirements": "Registration",
+      "upstreamFreeModels": 4,
+      "upstreamMaxContext": "400K",
+      "upstreamCategory": "free-tier-claim"
+    },
+    {
+      "name": "SambaNova",
+      "baseUrl": "https://api.sambanova.ai/v1",
+      "keyUrl": "https://cloud.sambanova.ai/apis",
+      "requirements": "Registration",
+      "upstreamFreeModels": 4,
+      "upstreamMaxContext": "128K",
+      "upstreamCategory": "free-tier-claim"
+    },
+    {
+      "name": "xAI",
+      "baseUrl": "https://api.x.ai/v1",
+      "keyUrl": "https://console.x.ai",
+      "requirements": "Registration",
+      "upstreamFreeModels": 3,
+      "upstreamMaxContext": "2M",
+      "upstreamCategory": "free-tier-claim"
+    },
+    {
+      "name": "Chutes.ai",
+      "baseUrl": "https://api.chutes.ai/v1",
+      "keyUrl": "https://chutes.ai/",
+      "requirements": "Registration",
+      "upstreamFreeModels": 2,
+      "upstreamMaxContext": "131K",
+      "upstreamCategory": "free-tier-claim"
+    },
+    {
+      "name": "Glhf.chat",
+      "baseUrl": "https://glhf.chat/api/openai/v1",
+      "keyUrl": "https://glhf.chat/",
+      "requirements": "Registration",
+      "upstreamFreeModels": 2,
+      "upstreamMaxContext": "131K",
+      "upstreamCategory": "free-tier-claim"
+    },
+    {
+      "name": "Grok (xAI)",
+      "baseUrl": "https://api.x.ai/v1",
+      "keyUrl": "https://console.x.ai/",
+      "requirements": "Registration",
+      "upstreamFreeModels": 2,
+      "upstreamMaxContext": "131K",
+      "upstreamCategory": "free-tier-claim"
+    },
+    {
+      "name": "AI21 Labs",
+      "baseUrl": "https://api.ai21.com/studio/v1",
+      "keyUrl": "https://studio.ai21.com/account/api-key",
+      "requirements": "Registration",
+      "upstreamFreeModels": 2,
+      "upstreamMaxContext": "256K",
+      "upstreamCategory": "free-tier-claim"
+    },
+    {
+      "name": "DeepSeek",
+      "baseUrl": "https://api.deepseek.com/v1",
+      "keyUrl": "https://platform.deepseek.com/api_keys",
+      "requirements": "Registration",
+      "upstreamFreeModels": 2,
+      "upstreamMaxContext": "128K",
+      "upstreamCategory": "free-tier-claim"
+    },
+    {
+      "name": "Nscale",
+      "baseUrl": "https://inference.api.nscale.com/v1",
+      "keyUrl": "https://console.nscale.com/",
+      "requirements": "Registration",
+      "upstreamFreeModels": 2,
+      "upstreamMaxContext": "128K",
+      "upstreamCategory": "free-tier-claim"
+    },
+    {
+      "name": "Nebius",
+      "baseUrl": "https://api.studio.nebius.com/v1",
+      "keyUrl": "https://studio.nebius.com/settings/api-keys",
+      "requirements": "Registration",
+      "upstreamFreeModels": 1,
+      "upstreamMaxContext": "128K",
+      "upstreamCategory": "free-tier-claim"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "trusted-readonly-mcp": {
+      "enabled": false,
+      "description": "Template only: enable only after a specific trusted read-only server and its capabilities are independently verified."
+    }
+  },
+  "capabilityGap": "No MCP server is enabled by the controlled profile. Existing global servers are deliberately not inherited."
+}

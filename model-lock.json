@@ -1,0 +1,20 @@
+{
+  "model": {
+    "repository": "richardyoung/Qwen3-8B-Abliterated-GGUF",
+    "revision": "2560f8f68b43958264748da68f2eda164ff61419",
+    "file": "qwen3-8b-abliterated-Q4_K_M.gguf",
+    "size": 5027784032,
+    "sha256": "8625e48da4c4be9bcba2414fd8cad4095ff3a538d5b0111c2b26b5f6209538b9",
+    "license": "apache-2.0"
+  },
+  "runtime": {
+    "repository": "https://github.com/ggml-org/llama.cpp.git",
+    "tag": "v0.7.0",
+    "backend": "CPU",
+    "build": "cmake --build runtime/build --config Release -j 4 --target llama-server",
+    "commit": "620d2225cc436ab0b001e3200e590e3b286ef9ab",
+    "source_archive_sha256": "1d4a987d9bd048f6e93107e838026438df70fbde237fc0c69c63d600512b4bd9"
+  },
+  "endpoint": "http://127.0.0.1:18080/v1",
+  "context": 32768
+}

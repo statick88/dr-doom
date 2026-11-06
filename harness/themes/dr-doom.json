@@ -1,0 +1,24 @@
+{
+  "$schema": "https://pi.dev/schemas/theme.schema.json",
+  "name": "dr-doom",
+  "appearance": "dark",
+  "vars": {
+    "doomGreen": "#4f9b70",
+    "doomGreenDim": "#28533d",
+    "graphite": "#151a19",
+    "graphitePanel": "#202725",
+    "metalText": "#d5dbd6",
+    "steelMuted": "#93a19a",
+    "warningAmber": "#d8a54a",
+    "errorRed": "#d85c5c"
+  },
+  "colors": {
+    "accent": "doomGreen", "border": "doomGreenDim", "borderAccent": "doomGreen", "borderMuted": "steelMuted", "success": "doomGreen", "error": "errorRed", "warning": "warningAmber", "muted": "steelMuted", "dim": "#68736d", "text": "metalText", "thinkingText": "steelMuted",
+    "selectedBg": "#2a4035", "userMessageBg": "graphitePanel", "userMessageText": "metalText", "customMessageBg": "#26322d", "customMessageText": "metalText", "customMessageLabel": "doomGreen",
+    "toolPendingBg": "graphitePanel", "toolSuccessBg": "#1f3b2d", "toolErrorBg": "#442728", "toolTitle": "metalText", "toolOutput": "steelMuted",
+    "mdHeading": "doomGreen", "mdLink": "#72b894", "mdLinkUrl": "steelMuted", "mdCode": "#a9c9b5", "mdCodeBlock": "metalText", "mdCodeBlockBorder": "doomGreenDim", "mdQuote": "steelMuted", "mdQuoteBorder": "doomGreenDim", "mdHr": "doomGreenDim", "mdListBullet": "doomGreen",
+    "toolDiffAdded": "doomGreen", "toolDiffRemoved": "errorRed", "toolDiffContext": "steelMuted",
+    "syntaxComment": "steelMuted", "syntaxKeyword": "#87b8a0", "syntaxFunction": "#b3c99b", "syntaxVariable": "metalText", "syntaxString": "#c8b279", "syntaxNumber": "#a4c5b7", "syntaxType": "#8db9ae", "syntaxOperator": "steelMuted", "syntaxPunctuation": "steelMuted",
+    "thinkingOff": "#68736d", "thinkingMinimal": "#4b7660", "thinkingLow": "#568c6b", "thinkingMedium": "#78a66f", "thinkingHigh": "#9cb66d", "thinkingXhigh": "warningAmber", "bashMode": "doomGreen"
+  }
+}

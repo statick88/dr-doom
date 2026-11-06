@@ -1,0 +1,9 @@
+{
+  "name": "dr-doom-disposable-runtime",
+  "private": true,
+  "version": "4.6.0",
+  "dependencies": {
+    "@earendil-works/pi-coding-agent": "1.5.0",
+    "gentle-pi": "4.6.0"
+  }
+}

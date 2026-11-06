@@ -1,0 +1,37 @@
+#!/usr/bin/env bash
+set -euo pipefail
+root="$(cd -- "$(dirname -- "${BASH_SOURCE[0]}")" && pwd)"
+
+usage() {
+  cat <<'EOF'
+Uso: doom [ctf|pentest|redteam] [argumentos de Pi]
+Inicia el arnés Gentle completo con tema Dr. Doom en un contenedor desechable.
+Sin flujo, quedan disponibles /ctf, /pentest y /redteam.
+No monta el directorio actual: el trabajo queda en harness/doom-workspace.
+Requisito: ./server.sh ya debe atender en 127.0.0.1:18080.
+Construye la imagen una vez: docker build -t dr-doom-gentle:4.6.0 -f harness/disposable/Dockerfile .
+Imagen local candidata: DOOM_LOCAL_IMAGE_ID=sha256:<64 hex minúsculas> doom (sin reemplazar la instalada).
+Consulta proveedores offline: doom catalogo [filtro]
+EOF
+}
+
+case "${1:-}" in
+  catalogo)
+    shift
+    if [[ "${1:-}" == "--help" && "$#" -eq 1 ]]; then
+      cat <<'EOF'
+Uso: doom catalogo [filtro]
+Muestra el catálogo offline local; filtra por nombre sin distinguir mayúsculas.
+No configura ni contacta proveedores, ni cambia el modelo local.
+EOF
+      exit 0
+    fi
+    exec python3 "$root/harness/catalog/list.py" "$@"
+    ;;
+  -h|--help) usage; exit 0 ;;
+  ctf|pentest|redteam) flow="$1"; shift ;;
+  "") flow="" ;;
+  -*) flow="" ;;
+  *) printf 'doom: flujo no válido: %s (usa ctf, pentest o redteam)\n' "$1" >&2; exit 2 ;;
+esac
+exec python3 "$root/harness/disposable/runtime.py" --root "$root" ${flow:+--flow "$flow"} -- "$@"

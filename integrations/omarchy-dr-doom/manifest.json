@@ -1,0 +1,23 @@
+{
+  "schemaVersion": 1,
+  "id": "local.dr-doom",
+  "name": "Dr. Doom",
+  "version": "1.0.0",
+  "author": "Colaboradores de Dr. Doom",
+  "license": "MIT",
+  "description": "Estado de la API local y acceso explícito a Doom completo.",
+  "kinds": ["bar-widget"],
+  "entryPoints": { "barWidget": "BarWidget.qml" },
+  "barWidget": {
+    "displayName": "Dr. Doom",
+    "description": "API local y lanzador de terminal, sin arranque automático.",
+    "category": "System",
+    "allowMultiple": false,
+    "defaultSection": "right",
+    "defaults": { "launcherPath": "", "healthPort": 18080 },
+    "schema": [
+      { "key": "launcherPath", "type": "path", "label": "Ruta absoluta al ejecutable doom", "defaultValue": "" },
+      { "key": "healthPort", "type": "integer", "label": "Puerto de la API local", "min": 1, "max": 65535, "defaultValue": 18080 }
+    ]
+  }
+}

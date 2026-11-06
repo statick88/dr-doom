@@ -1,0 +1,6 @@
+models/
+runtime/
+logs/
+harness/doom-workspace/
+__pycache__/
+*.pyc
