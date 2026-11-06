@@ -8,7 +8,7 @@ Qwen3-8B abliterated Q4_K_M served locally by llama.cpp, with a disposable full 
 
 **Verified boundary (2026-11-06):** one synthetic full-harness, 32K CPU scenario completed actual model → `read` → authoritative final response and passed independent evidence review. The cold run took **45 min 57 s**: this is not accepted interactive performance, general tool reliability, CTF efficacy or release readiness. Earlier 30-minute CPU timeouts and Vulkan device loss remain historical failures, not proof of insufficient RAM. Performance remains resource-dependent. No cloud provider is activated by default.
 
-For a clean clone, follow [installation and integrity checks](docs/install.md) first. Own source is [MIT](LICENSE); [third-party boundaries](docs/third-party.md) remain separate.
+Read the [experimental snapshot boundary](docs/experimental-status.md) before treating this as a usable or certified release. For a clean clone, follow [installation and integrity checks](docs/install.md) first. Own source is [MIT](LICENSE); [third-party boundaries](docs/third-party.md) remain separate.
 
 ## Start
 
